@@ -1,0 +1,3 @@
+[submodule "test-folder"]
+	path = test-folder
+	url = https://github.com/spck-io/Test-Repo.git
