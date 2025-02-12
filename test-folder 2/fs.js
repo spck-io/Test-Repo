@@ -12,11 +12,11 @@ const ERROR_SOURCE = 'filesystem'
 const isIDB = path => path === 'idb' || path.startsWith('idb/')
 
 const ext = (path) => {
-  if (path === null) return null
-  const tail = basename(path)
-  const index = tail.lastIndexOf('.')
-  return index == -1 ? '' : tail.substr(index).toLowerCase()
-}
+  if (path === null) return null;
+  const tail = basename(path);
+  const index = tail.lastIndexOf('.');
+  return index == -1 ? '' : tail.substr(index).toLowerCase();
+};
 
 /**
  * Generates a random ID.
