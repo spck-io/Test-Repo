@@ -4,4 +4,4 @@
 
 cool 2
 
-create conflict
+create conflict 2
