@@ -47,6 +47,8 @@ or
 pytest     # for Python projects
 ```
 
+update
+
 Ensure that you modify the commands above according to your project's setup and testing framework.
 
 ## Contributing
